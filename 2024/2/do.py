@@ -1,8 +1,5 @@
 f = open('data.txt', 'r')
 
-x = []
-y = []
-
 safe_cnt = 0
 
 for line in f.readlines():
