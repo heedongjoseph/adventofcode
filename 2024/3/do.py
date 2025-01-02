@@ -20,6 +20,6 @@ for line in f.readlines():
             result += int(x_nums[0]) * int(x_nums[1])
         else:
             break
-
+f.close()
 print(result)
     
